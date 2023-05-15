@@ -2,6 +2,8 @@
 import { Quiz } from '@/models/Quiz'
 
 const quiz = Quiz.fromParams(useRoute().query)
+
+onMounted(() => setTimeout(() => window.print(), 1000))
 </script>
 
 <template>
