@@ -1,42 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Homeschool Quizzes
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This app represents my first nuxt app hosted on railway.  It allows homeschooling parents to generate math quizzes for their kids
+with ability to configure limits.  It generates a printable pdf with practice problems and a second sheet with the correct answers.
 
-## Setup
+# Backstory
 
-Make sure to install the dependencies:
+This app came about because my wife kept asking me to find math problems for me kids.  I was very surprised by how hard it was to find
+good math worksheet examples online and realized that it would be very to create my own.  In addition I wanted to experiment with the
+nuxt framework and the railway cloud hosting solution.
 
-```bash
-# yarn
-yarn install
+# Tech Stack
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Nuxt is a node-backed full-stack framework built on VueJS.
